@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1350px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .container .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .container .navbar .navtittle {
+    font-size: 35px;
+  }
+  
+  .container .navbar .navlogo img {
+    height: 75px;
+    width: 75px;
+  }
+  
+  .container .navbar .nevitams {
+    font-size: 30px;
+  }
+  
+  /* Add media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .container .navbar .navtittle {
+      font-size: 25px;
+      margin-left: 10px;
+    }
+  
+    .container .navbar .navlogo img {
+      height: 50px;
+      width: 50px;
+      margin-left: 10px;
+    }
+  
+    .container .navbar .nevitams {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  }
+  
+  .container .backimage-1 {
+    height: 569px;
+    opacity: 0.7;
+    background-size: cover;
+  }
+  
+  .container .backimage-1 .text-first {
+    font-size: 6.0rem;
+  }
+  
+  .container .backimage-1 .text-second {
+    font-size: 30px;
+  }
+  
+  .container .ratings {
+    font-size: 2.25rem;
+  }
+  
+  .container .award .text-1 {
+    font-size: 40px;
+  }
+  
+  .container .award .text-2 img {
+    max-width: 80px;
+  }
+  
+  .container .someinfo {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container .someinfo .content {
+    margin-left: 80px;
+  }
+  
+  .container .someinfo .content .someinfo-content-line-1 {
+    font-size: 4.625rem;
+    margin-top: 70px;
+  }
+  
+  .container .someinfo .content .someinfo-content-line-2 {
+    font-size: 1.25rem;
+    margin-top: 40px;
+  }
+  
+  .container .someinfo img {
+    margin-left: 45px;
+    height: 650px;
+    width: 620px;
+  }
+  
+  /* Add media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .container .someinfo {
+      flex-direction: column;
+    }
+  
+    .container .someinfo .content {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .container .someinfo img {
+      margin-left: 0;
+      margin-top: 20px;
+      height: auto;
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  
+  .container .menu {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container .menu .box-1,
+  .container .menu .box-2,
+  .container .menu .box-3 {
+    margin: 25px;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .container .partner {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+ 
+  
